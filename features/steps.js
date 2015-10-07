@@ -1,16 +1,15 @@
 var myStepDefinitionsWrapper = function() {
-  this.Given(/^I am on 'google\.com' homepage$/, function() {
-		browser.url('http://google.com');
+
+	this.Given(/^I go to the DME homepage$/, function () {
+	  browser.url('http://localhost:5000');
 	});
 
 	this.Then(/^I search for "([^"]*)" in the search box$/, function(searchTerm) {
-		browser.setValue('input[name="q"]', searchTerm);
-	  browser.keys(['Enter']);
-		pending();
+		client.waitForExist('.Header');
 	});
 
 	this.Then(/^I see "([^"]*)"$/, function (link) {
-	  browser.waitForExist('a=' + link);
+	  expect(client.getText('.Header-bannerTitle')).toEqual('React');
 	});
 };
 
