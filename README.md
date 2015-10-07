@@ -1,5 +1,7 @@
 ## React Starter Kit — "isomorphic" web app boilerplate
 
+Test for Webdriver I/O
+
 [![Support us on Bountysource](https://dl.dropboxusercontent.com/u/16006521/react-starter-kit/banner.png)](https://salt.bountysource.com/teams/react-starter-kit)<br>
 
 > [React Starter Kit](http://www.reactstarterkit.com) is an opinionated
