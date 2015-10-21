@@ -1,4 +1,4 @@
-## React Starter Kit — "isomorphic" web app boilerplate [ ![Codeship Status for jermspeaks/react-starter-kit](https://codeship.com/projects/df285100-4f45-0133-7f22-6a2063c5e118/status?branch=master)](https://codeship.com/projects/107223)
+## React Starter Kit — "isomorphic" web app boilerplate [ ![Codeship Status for jermspeaks/react-starter-kit](https://codeship.com/projects/df285100-4f45-0133-7f22-6a2063c5e118/status?branch=master)](https://codeship.com/projects/110173)
 
 Test for Webdriver I/O
 
